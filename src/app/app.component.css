@@ -1,0 +1,35 @@
+header {
+    background-color: #3cffaeb2;
+}
+
+header>nav {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+aside {
+    width: 20%;
+    background-color: #00c47981;
+}
+
+main {
+    flex: 1;
+    background-color: #21520085;
+}
+
+footer {
+    height: 5vh;
+    background-color: #3cffaeb2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

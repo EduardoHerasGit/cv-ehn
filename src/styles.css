@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/*Css reset*/
+* {margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;}
+
+/* A toda la altura */
+html, body, app-root {
+  height: 100%;
+}
+
+/*Habilito flex dentro de app-root*/
+app-root {
+  display: flex;
+  flex-direction: column;
+}
