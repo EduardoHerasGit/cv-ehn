@@ -18,6 +18,8 @@ export class AppComponent {
   github = 'https://github.com/EduardoHerasGit/proyectos-personales';
   ingles = 'alto';
   fecha = new Date();
+  profesion = 'Desarrollador de Aplicaciones Multiplataforma';
+  frase = 'Apasionado por el desarrollo de videojuegos y las nuevas tecnologías.';
   tecnologias = [
   ' HTML',
   ' CSS',

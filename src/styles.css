@@ -1,15 +1,20 @@
-/*Css reset*/
-* {margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;}
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* A toda la altura */
-html, body, app-root {
+/* La aplicación ocupa toda la pantalla */
+html,
+body {
   height: 100%;
 }
 
-/*Habilito flex dentro de app-root*/
+/* Configuración principal de la aplicación */
 app-root {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: Arial, sans-serif;
 }
